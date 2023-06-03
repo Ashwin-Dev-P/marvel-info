@@ -1,0 +1,56 @@
+.accordion {
+	width: 100%;
+	background-color: var(--tertiary-color);
+	color: var(--primary-color);
+}
+
+.accordion-title-div:hover {
+	cursor: pointer;
+}
+
+.accordion-title-div {
+	padding: 5%;
+}
+
+.accordian-title-content {
+	width: 90%;
+	margin: 0%;
+	display: inline-block;
+}
+
+.expand-btn {
+	display: inline-block;
+
+	width: 10%;
+}
+
+.accordion-content {
+	border-top-width: 80%;
+	border-top: 2px solid #000000;
+	padding: 5%;
+	color: #000000;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.accordion {
+		width: 80%;
+		margin: 0% 10%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.accordion {
+		width: 60%;
+		margin: 0% 20%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.accordion {
+		width: 40%;
+		margin: 0% 30%;
+	}
+}

@@ -1,0 +1,47 @@
+ul {
+	list-style-type: none;
+	padding: 0%;
+}
+
+.error-message-div {
+	color: red;
+	margin-top: 10%;
+}
+
+.my-text-center {
+	text-align: center;
+}
+
+.my-my-5 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.my-py-5 {
+	padding: 5% 0%;
+}
+
+.my-vertical-center {
+	margin-top: 50%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.my-vertical-center {
+		margin-top: 40%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.my-vertical-center {
+		margin-top: 30%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.my-vertical-center {
+		margin-top: 10%;
+	}
+}

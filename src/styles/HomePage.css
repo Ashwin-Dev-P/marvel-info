@@ -1,0 +1,40 @@
+h1 {
+	background-color: white;
+	color: var(--primary-color);
+	padding: 5% 5%;
+	text-align: center;
+	text-transform: uppercase;
+	width: 80%;
+	margin: 0% 5%;
+}
+.flex-container {
+	display: flex;
+
+	/* flex-direction: row; */
+	flex-wrap: wrap;
+
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	h1 {
+		width: 40%;
+		margin: 0% 30%;
+		padding: 2%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	h1 {
+		width: 20%;
+		margin: 0% 40%;
+		padding: 1%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

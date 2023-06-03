@@ -1,0 +1,3 @@
+# Allow all crawlers to search all directories
+User-agent: *
+Allow: /

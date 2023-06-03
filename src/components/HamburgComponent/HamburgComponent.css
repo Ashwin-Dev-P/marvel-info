@@ -1,0 +1,11 @@
+/* .hamburg-divs-container {
+	padding-top: 0%;
+	padding-bottom: 10%;
+} */
+
+.hamburg-divs-container > div {
+	width: 35px;
+	height: 5px;
+	background-color: var(--primary-color);
+	margin: 6px 0;
+}

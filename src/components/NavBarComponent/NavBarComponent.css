@@ -1,0 +1,93 @@
+nav {
+	background-color: #ffffff;
+}
+nav > ul {
+	display: block;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 0%;
+	margin-bottom: 2%;
+}
+
+/* Hide everything other than the first and last child i.e the logo and hamburg icon */
+nav > ul > li:not(:first-child):not(:last-child) {
+	display: none;
+}
+
+nav.expand > ul > li:not(:first-child):not(:last-child) {
+	display: block;
+}
+
+li {
+	margin: 1% 1%;
+}
+
+li a {
+	text-decoration: none;
+	color: var(--primary-color);
+
+	padding: 2%;
+	display: block;
+}
+
+/*  Change color of links in navbar except first one i.e the logo */
+nav li:not(:first-child) a:hover {
+	background-color: var(--primary-color);
+	color: #ffffff;
+}
+
+nav > ul > li > button {
+	width: 90px;
+	padding: 2% 2%;
+	margin: 1% 0%;
+}
+
+.logo-li {
+	display: inline-block;
+}
+
+.logo {
+	display: inline-block;
+	width: 100px;
+	margin: 0px;
+	margin-top: 3%;
+}
+
+.expand {
+	display: block;
+}
+
+.hamburg-compressed {
+	display: inline-block;
+	float: right;
+}
+
+.hamburg-compressed > button {
+	padding: 10%;
+	margin-top: 8%;
+}
+
+#hamburg-btn-li {
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	nav > ul {
+		display: flex;
+	}
+
+	nav > ul > li:not(:first-child):not(:last-child) {
+		display: flex;
+	}
+
+	.hamburg-compressed {
+		display: none;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

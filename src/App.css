@@ -1,0 +1,24 @@
+:root {
+	--primary-color: #f0141c;
+	--secondary-color: #f4848c;
+	--tertiary-color: #ffffff;
+}
+
+html {
+	min-height: 100%;
+}
+
+body {
+	margin: 0%;
+	padding: 0%;
+	height: 100%;
+	background-color: gray;
+	/* background-image: url(./assets/marvel_background.png); */
+	background-image: url(./assets/space.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	background-color: gray;
+}
